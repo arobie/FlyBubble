@@ -3,7 +3,7 @@ FlyDisco
 
 The Fly Disco is a high throughput behavioral assay designed to quantify the effects of optogentic manipulations on fruit fly behavior including limb movements. Here we provide the parts list, fabrication and assembly instructions for the  Fly Disco behavioral assay. 
 
-![alt text](FLY BUBBLE TOP LEVEL ASSY.jpg)
+![image](FLYBUBBLETOPLEVELASSY.jpg)
 
 Related repositories
 
