@@ -5,7 +5,7 @@ The Fly Disco is a high throughput behavioral assay designed to quantify the eff
 
 ![image](photos/FlyDiscoRig_expansions.png)
 
-We have supplies the entire specifications for our Fly Disco rigs. Some parts some parts are essential to replicate in order to reproduce videos that could be processed using our pipeline and trained trackers, such as the recording chamber. Other parts can be easily subsituted with little impact on video quality such as the rolling cart. We have color coded the parts list with green for essential, yellow for suggested, and no color for non-essential parts, but for completeness provided all the information. 
+We have supplies complete specifications for our Fly Disco Hardware. Some parts are essential to replicate in order to reproduce videos that can be processed using our analysis pipeline and pretrained trackers, such as the recording chamber. Other parts can be easily subsituted with little impact on video quality such as the rolling cart. We have color coded the parts list with green for essential, yellow for suggested, and no color for non-essential parts, but for completeness provided all the information. 
 
 
 Custom fabriction items:
@@ -16,7 +16,7 @@ Custom fabriction items:
 4. LED backlight and LED indicator - https://github.com/janelia-experimental-technology/RGB-IR-LED-Boards > model
 5. Camera mount design file
 
-   
+
 Related repositories
 
 1. LED backlights https://github.com/janelia-experimental-technology/RGB-IR-LED-Boards
