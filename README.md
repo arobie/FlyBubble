@@ -9,6 +9,7 @@ We have included the complete specifications for our Fly Disco Hardware. Some pa
 
 
 Custom fabriction items:
+
 0. Fly Bubble vacuum mold (3D printed or milled) - design file
 1. Vacuum form bubbles - instructions
 2. Fly Bubble cartridge (3D printed and milled) - design and instructions
@@ -17,7 +18,8 @@ Custom fabriction items:
 5. Camera mount design file
 
 
-Related repositories
+
+Related repositories:
 <ul>
   <li>1. LED backlights https://github.com/janelia-experimental-technology/RGB-IR-LED-Boards</li>
 <li>2. Data collection: FlyBowlDataCapture (FBDC) https://github.com/kristinbranson/FlyBowlDataCapture
