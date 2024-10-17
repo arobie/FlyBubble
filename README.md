@@ -7,7 +7,7 @@ The Fly Disco is a high throughput behavioral assay designed to quantify the eff
 
 Related repositories
 
-1. LED backlights hlps://github.com/janelia-experimental-technology/RGB-IR-LED-Boards
+1. LED backlights https://github.com/janelia-experimental-technology/RGB-IR-LED-Boards
 2. BIAS https://github.com/kristinbranson/BIASJAABA
 3. FBDC: FlyBowlDataCapture https://github.com/kristinbranson/FlyBowlDataCapture
 5. FlyDiscoAnalysis https://github.com/kristinbranson/FlyDiscoAnalysis
