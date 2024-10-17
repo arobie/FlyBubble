@@ -3,11 +3,11 @@ FlyDisco
 
 The Fly Disco is a high throughput behavioral assay designed to quantify the effects of optogentic manipulations on the behavior of groups of freely walking fruit flies including limb movements. Here, we provide the [parts list](FlyDiscoPartsList.xlsx), fabrication, and assembly instructions for the  Fly Disco behavioral assay. 
 
-![image](FLYBUBBLETOPLEVELASSY.jpg)
+![image](photos/FLYBUBBLETOPLEVELASSY.jpg)
 
 Related repositories
 
-1. LED backlights hlps://github.com/janelia-experimental-technology/RGB-IR-LED-Boards
+1. LED backlights https://github.com/janelia-experimental-technology/RGB-IR-LED-Boards
 2. BIAS https://github.com/kristinbranson/BIASJAABA
 3. FBDC: FlyBowlDataCapture https://github.com/kristinbranson/FlyBowlDataCapture
 5. FlyDiscoAnalysis https://github.com/kristinbranson/FlyDiscoAnalysis
