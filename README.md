@@ -38,3 +38,4 @@ Related repositories:
   </ul>
 </li>
 
+Designed by Alice Robie in collaboration with the Janelia Engineering and Technology group. 
