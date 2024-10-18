@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormSpecification xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>HHMI iProperties</Name>
+  <Font>
+    <Size>0</Size>
+    <Bold>false</Bold>
+    <Italic>false</Italic>
+  </Font>
+  <ContentsFont>
+    <Size>0</Size>
+    <Bold>false</Bold>
+    <Italic>false</Italic>
+  </ContentsFont>
+  <ContentsTextLocation>Left</ContentsTextLocation>
+  <Items>
+    <UiElementSpec xsi:type="PictureControlSpec">
+      <Name>LOGO</Name>
+      <Font>
+        <FamilyName />
+        <Size>0</Size>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+      </Font>
+      <TextLocation>Left</TextLocation>
+      <Image>
+        <FileName>\\svault1\Inventor Standards\R2015\Logos\HHMI Identity Guide &amp; Files\HHMI_logo_color_horizontal.png</FileName>
+        <BitmapByteArray>iVBORw0KGgoAAAANSUhEUgAAAlgAAACWCAYAAAACG/YxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAB0SSURBVHhe7Z1Pjh03kocN2D3e+gQqoY3e+wYqz0bu2ZTsuYCOoCNoN7BsQ1q0rOUYYwGzbKFtoJetafUBfAQdQTfwRJBBZpDJZP6tp3ql7wMCesk/wSAz7fgVM1++jwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9vOni4svPr+4uLRDAAAAANjLH+9cvP784u7vdggAAAAAe0FgAQAAABwMAgsAAADgYBBYAAAAAAeDwAIAuGV8+vTF3Y+/e3G518zdzeLl1Rcf/Xx1ucvUB3xQPPm/ew+/ffPlqydvLt89efPl785eP3nz74+e/uPeZ9b0MBBYAAC3jD/88PzxH3748fe9Zu5uFj9fvf7o5YPfd5n6gA+Cb/9578G3/7x8W4mqhl2+EwH22LodAgILAOCWgcCaMQTWB4HuWrXFVMf++eVP1n03CCwAgFsGAmvGEFi3nk3iKtlBIguBBQBwy0BgzRgC61bzX/+4d7fxrNUq01uL5m4zCCwAgFsGAmvGEFi3Gt2BaommNabPbZm7zSCwAABuGQisGUNg3Vr024AtwbTF9u5iIbAAAG4ZCKwZQ2DdWr57c++yJZa22N5vFSKwAABuGQisGUNg3VpUFLXE0kbbdZ0gsAAAbhkIrBlDYN1aEFgAAHBtILBmDIF1a9n1eobadr6uAYEFAHDLQGDNGALr1sIzWAAAcG0gsGYMgXVr0W8RqjA6wp78696u36w8SmAlP9EuFou+rf2gJK2hrqcVLaY6B4t/33Vrv1ORYtuyJgBnDQJrxhBYcAJSkrTDzVTJFoF1YtIabhET1TlAYAGcOwisGUNgwQlISdION1MlWwTWiUlruEVMVOcAgQVw7iCwZgyBBScgJUk73EyVbBFYJyat4RYxUZ0DBBbAuXNqgfXxdy8u1f7w/V8exrGfP/7khx8fhbKnf9n1HMuIUwusn68uzR6JPQ728uphKPvfq7vW6uy4+uvVZ//5y/1Lta9/uf842Td/+/MDLbNmh3H19/t31a/6b42n8VjTW0NKkna4mSrZIrBOTFrDLWKiOgcILIBz57oF1qdPX9yV+meffP/8t7rPlH3y/Y+vVIB99PTpvkR63QJLhdPLq5/k37fNvrX9fPUutP+fq90/DpwEzx4zV02CuPn1/k8ibN5+8+tXv8/aL1+9+ubX+w+t+ypUUH39y1eP1If8+67pvzKNS+Obm8cc+nC6fptwr5m7zaQkaYebqZLttQisi4uLu3+8uHio7cweaJlVvzckjkuJ65GP608XF6v+aJN5fKb9rP/ovFb1ae75/1NpDbeIieocLL6mtvbbgq5nWmP9d8n6ptj8mjSuocVxt/r6c9BD21bXyOK+AKu5LoEVd6l+fN1qu9yev9P4Ngut6xJYcVdqmaiastBf/GykJTrWmrkqUKGzWFQ1LPZdJrSufv2PL1QktfysMR1zq9B68ubL1/UrF7aYudtMSpJ2uJkq2R4qsDQZle1K07o64X5+5+K3oc1F8w8LafOT8/HKigvUb6uNJkeNV3y8S/UjkxhaQiDVa9x6HJJ24WdYBxvn2VBXmcwhtonHyecatM/g8xiBlcrn4plrJ34fyBzfpnbetI/M/a4/tm6Bup3+m8oKC/7b14gy01fO2/T1rnXlua3Mzp81BziGwwWWiCE5flbX77Pn71Sw2QjLOVpg6W2+I3wWdvXbltuHLaGx1sxVQMWOlP1Wt9lu919P3crT8q9//epZu992U7G29vahiCMEljDXL+4YpPqOSRLzYiYktlx/8cyKC2JiHfpbcUHcdYht9LMVVwKuY+K3TqCpTufenl9cB+23aBzXRn2GQVZQnYMbI7AWnXt3Dmsfrs1veh7y8YSpkLKumSCwF/SVNqMX/up112xbm8SHyIJDOVRgibhacytwteltwzUcKbBeXn0hn9812+y1eOtw1a2MlsBYa+ZKfN1/uPTW3Er7rRY8Yddqxw7ZAhuN2UPEEQJL6PXTpD3UiQUhEXcaNCGFBFyJpJQk/c6T9tMyj7bL9Wat3SaJ71WqT7696NIxNY5U5+LKSVnba13C9S12ZuJY8faRtvNjR38Xj8v5eRGZfdwKgaX+Up3Vv0rnR9cgnINK+Ix9DHXBZL3tXIX/TmWMcnesEkk6jh+jjiGsfxHDcP0W15/VpXNn8XevEYBdHCawrltcJVsjso4SWNcprpKtFFkNYbHaop/7D1t1B1oWPFFcXYuQq22UyKcQcXR7BZYmMjleYlMJSgn1Viefm7fwNFmKj2GXxyVJjSOVp+SWCAku9TFrJblc70Saj0tibgqS0n8tHFN5NJ2bzsOqA+rXt2mJP6Vup7FZ1WKK+cg89XiJSVt/7g4VWMG/1flz6qlFTO3D1+m86jVWCh9yvVhxQMcdfLT/aKj6591KvZZc3/YOqjt3c+sEsIqjBNZJxFWypd82PEZgvb12cZVMx/rvZbsvDVGx2uy2YLPuSNPbgfYg+ynEVTAd05aqi4ijW7yDtdUmdgBc4mqh4sn7SW01saUyFTyhsZGTp4ozE2gyh0LESf8Hrv9we9DKpF+RkD0+efp5KUN59NGaW44vtun+3qRvuyVRH3TuDhNYxfmcOfe9uWcfwaZ35sRHFuhWFIV76ts5z4qe39Q2XWdFWWcNYrvw4P66uyQAPY4SWKc0FXMWfp8jBNbJ7ar7P/FES1SstWu+VVfbgc93LTMVkLZck4g4YgdLTBNo7ueEiE9QmkSteJLga/ATbiN6kSb1pXiSGK2tiDATYhKLVQdyuZgmfSueJSRnL5DcvJShfEjINdI/J32dhxU3qea5T2DJuHq8xHS9cr8DBZauSSrXc2DFTXTclg9l8NG/vsNcqnbiN4vr+vzVVH8MhGu1KBOLY5Tf/AS4Ns5RYAVbcqvwLAWW2IKH3luCAqvsl6+at7M8Io54BkuY6iefJ3efWmjfpp8kpJx4UrHk2kqCHpKpFzMqNqzv5B9W6isKgovHYS5OGA02LbCmEq5vY0VdUluNwYoWU52DyZ2eml6/VD4XT6udrlcuX/BsUsuHMlVe4+dhRUUMa6yYRyGynYVr5OKZXjcILrgWzlVgffLDj93t4sC5CqwFu1hNQYGNTG9N2pI1EXGEwBKm+lXls0m/TIhtoZbEk98h0WNNcuk4JfRKhI12UYKPvAvWsImdOcW3s6IRS9p4Uluf4Jeydq0TvX6pfC6eVjtdr1S+JJ6WD2WqvMbPw4qqGFbYeBdUH4Sfvk7URIghtOBQznYHS23uWaxzFVj6zNcMLTGBjU3f62VL1kTEEQJLmOon5cM36PYJrNGzUJrQ9FjHDo0EKQs7TzquHnsR5ne1lNQ/mybQUKYxxJeMtsZNuH6TO2ND3w9bYOl5sOImhTiuxpoqr/HzsKIiBnduF5m5KJBy3SlNu5xOfOcxFn9BBmCWsxZYErtNo83Z7mCJ6VviO7TEBNay+93/qYs4QmAJU/308xp/MQnG9nVSTglNx7Lj9PzVeDzbgcj+pG1oYBTP1gS/Ey8xXSCwUjwtou/YTnfTrLhJT2QsoToHN0pgyefdz2DNxeDnYUX1twAXX89LCddRJdTnxCTAYs5ZYOlP6tg02py3wOruvLTFBFabfnPRlqyJiCMEljDVTz4PDxkv+OveC5LejlMhkJwo0M9Fm+yvTPAao+s/mfy9P+1jxYFU3kv8Upd38OYSr9Yv8TlFdQ5OJrD8ufDtirWrBG6NP7f1WFPlNX4eVlTH1v3/fbydHHevxILgjuckloVGE/j459oCLOa8BdbMtwnPWWC9vOr+xdgSE1jbei8eFXGEwBKm+oVdGSeaeiIjJjLz0UjIUj+8bsEJF6vOtNqMxJofqzNP76Nul8p17lY0wosmnZOuh1UV2DrlZ3x6PqfQPnmsgwVW63wk/BrVcVfnvvlHXymWGz4mymv8PKwo4Ne1vg48/ppIsfq59dbU99XPVgywj2sVWPpbhGbX9Z4sm0ab6xJY+oyU+h5s3+8Stkz9dmgJib1mvyP4Otkp3ltVj9lqs9d6v1Mo4giBJfT6FclHEm4r0WrZ0D8kuKYQ8wk7tGsk3TIWsYY4KMa7M355pQme4taPHlt1IJW3YvDo+M6HjlXcKrSxim8tzvlsUZ2DYwSWF32N8ybt85cPQpsq7sa5L2/7ynha3vfRLq/x87CigI6ZyuNY47Wp26Trob5OWgJNz6fU+XXiFiEcw/UIrPYPNH/69MXdo4WWuW5ztMCKb1tv/8enz0wd+ULSEwqsKKTaP9CsD4m3+uy1qR9o1t2mo3+nEIE1z1w/TU5DvZgmJBEs0u+VT05WN/ktWK0r2rbG8kldreEvJMWyzbsQiwiGci7jNinJpnJtH5xOID7dbcahj8Y5Ndaczxalr4ME1ngt46sJ4nkbhJGdw1bcsU/hQ9dRHxL3wnPY6ap8TJXXBJ/W1ooyvi6YxqTXUrRS3DqBZOK3vj5j39a1InXWFWA/hwusuW/26U/q/PDj22bfDWZe2xwpsJa8ZV1/6qbVd4udUGDNvZDzaJGlgm7u9wKPFFkIrHnm+mmikjbudsuUzT4M7V4cGdqPzo2WVW2aD7AXuxYtk6Qfbl/VCdbGTMc69+CwQ4jbC5KG+XiW+KypzsEhAssERimQKtO4k49W3LPnXtbX3yasfUyV16QY1KwoY/OoxPnYWrtPdg101yCYtNFxrBvAfo4VWDPf6jP0JaHt/uvNXLY5VmAt+x+evsOq1X+tnUhgff3L/UXn7Ni3vrd3yzxhJ+ugW5QflMAKSV53LYItT9IL+2mdWPzLXwWHJNcY+8UzSU6L3rJuYwSzohFL2ihSr7eodCctJmdJkvpZ5vMoJUtro7sWYdctxZn8t5JyC/Wnfm3u6ivu5Li5r/Xp8edg6VoqS/ppG4tb12EUd/LRizuKqLhrZ75+8u2TUNE6Kwqk2Hq+lRSDmhWNkLrhfK+8/tS/tH016huEW1vEA+ziOIH1fPbdTZ62j/Vm7tocJbB+vpp9I3hGhVjLx1o7kcCaexFnQoVYq/9aU9FkLmfRN7G3fKy1D0lgAbwPVKAkgdUTSAAfFAfuYHVvDdSEh9/bflaZuWtz2A7WxHNXUzR9rLQTCCzdlTJ3s3zztz8/aPlYb/33UnmOEnUILIBtZNF0p/+ahnT9msBiNwhAOUpg/dv3z1f9R3VWAmvBbwMWtHystZPsYC0XOypS2j7W2dJbkspRz34hsAC2IcJqeHbpTvvLC3p7zrVZ/EcbwK3nKIH18XcvFj/voUifZ7WPLWbu2hwlsNZyxLin2MH69avFu47vQ2AdNSYCC2AbIp7KLxzEZ8/0mSV9VupZOPb17F4BDBwlsPQVDOZyEUeNa+7aHCN01v9Fdi4C6z2IHQRWGwQW3FRUNImQ6n6DMtYjrgAKTiJ0GpyRwFp8Gy2DwJo0BFYbBBbcZC7iNygf6u6VXqvJwrGUa701BYAEAmvGEFgBBFbfzN1mEFgAALcMBNaMIbACCKy+mbvNHCWw9F1An8d3VQWbezdQC92N8D7Sm8/fB60YfHxb5ndd7I0r9bX+Z7UjlOJ+n9cKwI0DgTVjCKwAAqtv5m4zRwksSXKPwzMxye6s/+kPve3jfWhsVnVyWjHEZJ7iuznvXNob19A39J+8Zm8iKe73ea0A3DgQWDOGwAogsPpm7jZzbQJLbO1uSnxgeeiPwFrG3riGvqH/jRFYfl5T10Kvfq7vEajvNI4VAbx/EFgzhsAKILD6Zu42kxKEHW5GE3tKNIP1fx/QE3+upOx/nYlxjlYMPuHrfK34vbM3rqFv6I/AWoH6TuNYEcD7B4E1YwisAAKrb+ZuMylB2OFmNLGnRJNtxcsfJY7Rj/peZ2KcoxXD3medrgsvRPQ8WPFihr6h/5kJrHg+Ws9gzfU9AvWdxrEigPcPAmvGEFgBBFbfzN1mUoKww81oYk+JRp+/yp8XvKNIxYrrm28TXmdinOMmxLAUL0T0PFjxYoa+of9ZCawee/ouJf33o2ZFAO8fBNaMIbACCKy+mbvNpARhh5vRxJ4Tmr/dN/EzJx5p/8i3T597iVF3LHRMbRPmsPK9SDHGi2e5f/jZlUEMtmJYuoMVBWOI7ZXzL+uzSGzG9z652Ob6S/m1Cazoe5iv/qvnS2JKc3ulY/bWQ6nPl5oei43mZG0vq+tCRHuMxe9W1WW29qGs1VctdBTSsffXIsWT+uo5SsfRt42TysS0TejssNj8dfFK5zi3dgCrQWDNGAIrgMDqm7nbTEx0R98iLBNPK9l4pG382ZP4Vm5JULGfxmZNMpqMUsxNm3mzt8VW/cyKM4k7JtR47GPwscnn0fWk89SkObRpmIw9ldCDoKge9B+ZxFev51xccxT+xZcVB7zfIPw68Wm9dcvYmkyfL7VqTebal+ekLNM4fduWhY5COvb+Wvh49Lhc7ykb1lHXQI6H301s2vrzBjAJAmvGEFgBBFbfzN1mUvKww82UiS3sPuRdrFbiTXgxI4lWf2tuUmCpuBoleBEcPgEONhZZ3ne21N/7dQLMx1D2LxNiSKJOVAYTn+Z7VF6LrCCufBsx7TuKzcqtW6AX1xK8b/VlxYFcXs0hx+bK1PQcWddAY+5vbU6jNUl9W369+fnXZTp/37ZloaOQjr2/Fj4ePS7Xe8rcbtf0GlRidfmXQgC6ILBmDIEVQGD1zdxtJiUPO9xMmdjiLZJ8LAnGmo2QunxLMIqtaYHlE5XUvfLJ3BLZ8B6tmLDzTo/VexGlO0GFGGjt0PgYfGw6XysOyPGwQyE+alGpY+mYqU1jbnlcFVtWnKkFmJ9bL64leL/qy4oDZV2o19uBfl2Leek6WJXG9SCXh/mVvqf6puugmHNop/OsbxHG+rSewae1a/VVCx2Fuu8UWp/a6rHOP/sr489jpDWSz/66CLujWp6oz6v2tSqA7SCwZgyBFUBg9c3cbSYlDzvcjCSGQmCFMid4NPGFhhXSJgoL+as+HIcEFfv4xKeCxZW/suIRfkyNyYrLRCZjpQRYE5N76l/G4GPzvmPCHfqk+deEdk5IpTUp/Er8oXEDnXdu58aYimspQ9/Sr1LVNX37NavWy18Tzb66Bq2+isYyVZfo1e/p69H61NaKMr06P7feNVdd291YABaBwJoxBFYAgdU3c7eZlCDscDNVMo0Cy+9gNG5/FInFdm2mkqp8zuIiCZMWmsSyiDHRpsjnvNOg41pxExU5ua2Lwccmn/P1VCXISfGnaD/1qZZ2M/TfVNaLzcelsVjxZFxLGfqWfpVcLms6JRCU1E7nYEW1qB09O5aI8Y8fNvfz8n49vfo9fT1an9paUaZXp+ci1S245vL12bu+ARaBwJoxBFYAgdU3c7eZlCDscDM+mWhitGJNHOkB9tE7sWTskWiaSqqpTBN9bNOxRrLK/cWCww7RT2xbxjCUy+d8Pcl4gyCbSaRbiDtEfn3D+CcVWH4dWrTa6dqn8mDx3IVva06JLY+f19T4vfo9fT1an9paUWZpnc45zmfCSvE8+21TgC4IrBlDYAUQWH0zd5tJScAONyNJoS2w/DMoLnH45Csx5F0f7evKw7WoyTiVrbf4ioF8LOIrDNTBj5diUHxs8jlfT1UinTznS4hjxF0uiXX6245unNgnl98YgaX43b2RqRAOwqItKPy8psbv1e/p69H61NaKMr26/vnr2fpzCFCAwJoxBFYAgdU3c7eZlCDscDOaFFyCyPOuxE1+vsjfPvK7Pq2k6svWWxAss4m6ptW+jONYgSX9HnQTsoiRqXGm4lrK0Lf0q6TyuXXrtQvxFTs0DZP53b5bhLF8vSGwYCcIrBlDYAUQWH0zd5tJCcION6NJwSWIMkmXt+zCraEsJu5cvAuNjKmkmsqiL22zzHQ8vyOl/c3lJKfewSr9isU5ynqOXqo5tUvYjGspQ9/Sr5LK/Tq0WN4unJfwsk0996lfsOo5Lz+vKb+9+j19PVqf2lpRplcXz2Oss3kvMlkDnsGCfSCwZgyBFUBg9c3cbSYlCDvcjCSGSYHlbxPFz5pIrK3b1VJ8nU98ORk3nuVaQh5PzCfxFhJDfji/iMHH7YSMtMnPkvnduBbRRxBPQUBpme9fr4cn9snjn6XAqgk7mU5o6bFVFfOa8tur39PX4+Ozooz2XVKHaIKTgsCaMQRWAIHVN3O3mZQE7HAzmthTMqmTtN8RkmRlz93E46W3heRz8xUFLdS/9q3652Q3K4JcfN6Hj03na8Xl7U73PFkLrXc+wjyG4774C2tX9VWm4lrK0Lf0q6Ryvw4tWu3EV/65Hytqou1Sfx+/xtLy6+nV7+mbiF8wiO3UrDijfSfrytvgo3ebebRefanV/00ArAaBNWMIrAACq2/mbjMpQdjhZjQxpmSiidGKM160yOfJ3aippKqiyPWffnFp2T+Lnar/5CsHfH/zkWMo6wYhoLsTvo+2s6qCIllLDFYsfoe+U3EV8Qe7+QJL1z+Xd0StjHmtAqt1nSl6DlKbyXUXv9mPmBVnfL0VZYrronPNaXmOxV0XAJtBYM0YAiuAwOqbudtMShB2uBlNjDmZNASGlLl3YkXTv9qtOtNLqpJ8hh2c8LkcJ4gQlzTreqkbHiIPn8tvr437lzH42ORzcT1Jv0JA1oKiEdsgJMp5/eQTcUzSfm2TnYHA0jlbeVqTWmTU6+J3b4LwGPqH86Xx+TapvhWf9xtj0XUa5id9/K3Z4s3++ll95nozq86UbfQ8xTHSPOWzf5P7W40jdDRCe3/+N5w/gBEIrBlDYAUQWH0zd5tJCcION6OJwSWJ5rxjkkxt2s+lhIRj9XXSDDtAhUgxKxJULhs9y7S4v4vTx+BjqxNhEAPtOJpl1i1QCJGhzVuxMtbqOMXWi2sJ3qf6suJAKq/PRc1UOz1Oddni3IprwcpH52y0BmLlORmXJaTM3Y4dzKqrdTPT8+XH1M8uVuua0fXObQuL67j2ukjCDGAXCKwZQ2AFEFh9M3ebSQnQDjdTJpoJgeX+mtfkZ8UF2te1GV2LKpJSzNM2LTJm+0uSC0LMjn0MPrbWGJZM+68jkDVoJVEtb7cXkyQvIuyRj0stxTYX1xzep/qy4kAqb50Lz1S7sCa9uakFQdOOuyU+y3MyLktMCWqrDjTFbTIRVvX1Yt0ykwLKreOi66LauQTYxadPX9z9+LsXl3vN3C3mJOO+vPpChMrlLlMfaznBuCoa9trV3+8v/kbN1V+vPmv5WGvvZUzxYy5HPPnXvS++e3Pvcq+Zu82k5GGHm5HkoLeyJNEPt0dqQqIZ2jTPh2+jyc2KR0SxEW7JxK/867+SLKfGrnH9JfkH08/5lqF8HsWwJH5F61QQSTsf26NeH8X3iwl5PCcp0/dlhboUm9bL8WxcU6S+1r9Yv1TeOxfKXDubm96my3Mzm32ru5+fmh+jVVbj+6pZccZiq89XvpWnvqf6JnwbtdacJsaZvS4AAOAMOUpgAQAAAICBwAIAAAA4GAQWAAAAwMEgsAAAAAAOBoEFAAAAcDCfX8SfM7FDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgLPvro/wFCOGOP2iEIdQAAAABJRU5ErkJggg==</BitmapByteArray>
+      </Image>
+      <LabelVisible>false</LabelVisible>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="ControlGroupSpec">
+      <Name>DIRECTIONS:</Name>
+      <Font>
+        <FamilyName />
+        <Size>0</Size>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+      </Font>
+      <ContentsFont>
+        <FamilyName />
+        <Size>0</Size>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+      </ContentsFont>
+      <ContentsTextLocation>Left</ContentsTextLocation>
+      <Items>
+        <UiElementSpec xsi:type="LabelSpec">
+          <Name>- Verify all iProperty entries are filled out properly. All iProperties must be entered in ALL CAPS. </Name>
+          <Font>
+            <FamilyName />
+            <Size>0</Size>
+            <Bold>false</Bold>
+            <Italic>false</Italic>
+          </Font>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="LabelSpec">
+          <Name>- Leave no iProperty blank. If an iProperty is not applicable (such as "Stock Number"), please input "N/A". </Name>
+          <Font>
+            <FamilyName />
+            <Size>0</Size>
+            <Bold>false</Bold>
+            <Italic>false</Italic>
+          </Font>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="LabelSpec">
+          <Name>- To edit an iProperty that's been newly added using one of the buttons above, close this form, and then reopen the form.</Name>
+          <Font>
+            <FamilyName />
+            <Size>0</Size>
+            <Bold>false</Bold>
+            <Italic>false</Italic>
+          </Font>
+        </UiElementSpec>
+      </Items>
+      <CaptionImage>
+        <BitmapByteArray />
+      </CaptionImage>
+      <BordersVisible>true</BordersVisible>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="ControlTabGroupSpec">
+      <Name>iProperties</Name>
+      <Font>
+        <FamilyName />
+        <Size>0</Size>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+      </Font>
+      <ContentsFont>
+        <FamilyName />
+        <Size>0</Size>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+      </ContentsFont>
+      <ContentsTextLocation>Left</ContentsTextLocation>
+      <Items>
+        <UiElementSpec xsi:type="ControlGroupSpec">
+          <Name>Part/Assembly</Name>
+          <Font>
+            <FamilyName />
+            <Size>0</Size>
+            <Bold>false</Bold>
+            <Italic>false</Italic>
+          </Font>
+          <ContentsFont>
+            <FamilyName />
+            <Size>0</Size>
+            <Bold>false</Bold>
+            <Italic>false</Italic>
+          </ContentsFont>
+          <ContentsTextLocation>Left</ContentsTextLocation>
+          <Items>
+            <UiElementSpec xsi:type="TextPropertyControlSpec">
+              <Name>(I) REV</Name>
+              <Font>
+                <FamilyName />
+                <Size>0</Size>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+              </Font>
+              <TextLocation>Left</TextLocation>
+              <ReadOnly>true</ReadOnly>
+              <AlwaysReadOnly>false</AlwaysReadOnly>
+              <PropertyName>Revision Number</PropertyName>
+              <PropertySetName>Project</PropertySetName>
+            </UiElementSpec>
+            <UiElementSpec xsi:type="ControlRowSpec">
+              <Name>Row 2</Name>
+              <Font>
+                <FamilyName />
+                <Size>0</Size>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+              </Font>
+              <ContentsFont>
+                <FamilyName />
+                <Size>0</Size>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+              </ContentsFont>
+              <ContentsTextLocation>Left</ContentsTextLocation>
+              <Items>
+                <UiElementSpec xsi:type="TextPropertyControlSpec">
+                  <Name>(I) PART NUMBER</Name>
+                  <Font>
+                    <FamilyName />
+                    <Size>0</Size>
+                    <Bold>false</Bold>
+                    <Italic>false</Italic>
+                  </Font>
+                  <TextLocation>Left</TextLocation>
+                  <ReadOnly>false</ReadOnly>
+                  <AlwaysReadOnly>false</AlwaysReadOnly>
+                  <PropertyName>Part Number</PropertyName>
+                  <PropertySetName>Project</PropertySetName>
+                </UiElementSpec>
+                <UiElementSpec xsi:type="SplitterSpec">
+                  <Name>Splitter 2</Name>
+                  <Font>
+                    <FamilyName />
+                    <Size>0</Size>
+                    <Bold>false</Bold>
+                    <Italic>false</Italic>
+                  </Font>
+                </UiElementSpec>
+                <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+                  <Name>Generate New Part Number</Name>
+                  <Font>
+                    <FamilyName />
+                    <Size>0</Size>
+                    <Bold>false</Bold>
+                    <Italic>false</Italic>
+                  </Font>
+                  <TextLocation>Left</TextLocation>
+                  <Image>
+                    <BitmapByteArray />
+                  </Image>
+                  <TextVisible>true</TextVisible>
+                  <RuleName>Part Number Generator 2</RuleName>
+                  <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+                  <Path>Part Number Generator 2.iLogicVb</Path>
+                </UiElementSpec>
+                <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+                  <Name>Create Legacy Part Number</Name>
+                  <Font>
+                    <FamilyName />
+                    <Size>0</Size>
+                    <Bold>false</Bold>
+                    <Italic>false</Italic>
+                  </Font>
+                  <TextLocation>Left</TextLocation>
+                  <Image>
+                    <BitmapByteArray />
+                  </Image>
+                  <TextVisible>true</TextVisible>
+                  <RuleName>Create Legacy Part Number</RuleName>
+                  <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+                  <Path>Create Legacy Part Number.iLogicVb</Path>
+                </UiElementSpec>
+              </Items>
+            </UiElementSpec>
+            <UiElementSpec xsi:type="TextPropertyControlSpec">
+              <Name>(I) VENDOR</Name>
+              <Font>
+                <FamilyName />
+                <Size>0</Size>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+              </Font>
+              <TextLocation>Left</TextLocation>
+              <ReadOnly>false</ReadOnly>
+              <AlwaysReadOnly>false</AlwaysReadOnly>
+              <PropertyName>Vendor</PropertyName>
+              <PropertySetName>Project</PropertySetName>
+            </UiElementSpec>
+            <UiElementSpec xsi:type="TextPropertyControlSpec">
+              <Name>(I) DESCRIPTION</Name>
+              <Font>
+                <FamilyName />
+                <Size>0</Size>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+              </Font>
+              <TextLocation>Left</TextLocation>
+              <ReadOnly>false</ReadOnly>
+              <AlwaysReadOnly>false</AlwaysReadOnly>
+              <PropertyName>Description</PropertyName>
+              <PropertySetName>Project</PropertySetName>
+            </UiElementSpec>
+            <UiElementSpec xsi:type="TextPropertyControlSpec">
+              <Name>(C) SURFACE ROUGHNESS</Name>
+              <Font>
+                <FamilyName />
+                <Size>0</Size>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+              </Font>
+              <TextLocation>Left</TextLocation>
+              <ReadOnly>false</ReadOnly>
+              <AlwaysReadOnly>false</AlwaysReadOnly>
+              <PropertyName>SURFACE ROUGHNESS</PropertyName>
+              <PropertySetName>Custom</PropertySetName>
+            </UiElementSpec>
+            <UiElementSpec xsi:type="TextPropertyControlSpec">
+              <Name>(C) SPECIAL FINISH</Name>
+              <Font>
+                <FamilyName />
+                <Size>0</Size>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+              </Font>
+              <TextLocation>Left</TextLocation>
+              <ReadOnly>false</ReadOnly>
+              <AlwaysReadOnly>false</AlwaysReadOnly>
+              <PropertyName>SPECIAL FINISH</PropertyName>
+              <PropertySetName>Custom</PropertySetName>
+            </UiElementSpec>
+          </Items>
+          <CaptionImage>
+            <BitmapByteArray />
+          </CaptionImage>
+          <BordersVisible>true</BordersVisible>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="ControlGroupSpec">
+          <Name>Altered Item</Name>
+          <Font>
+            <FamilyName />
+            <Size>0</Size>
+            <Bold>false</Bold>
+            <Italic>false</Italic>
+          </Font>
+          <ContentsFont>
+            <FamilyName />
+            <Size>0</Size>
+            <Bold>false</Bold>
+            <Italic>false</Italic>
+          </ContentsFont>
+          <ContentsTextLocation>Left</ContentsTextLocation>
+          <Items>
+            <UiElementSpec xsi:type="TextPropertyControlSpec">
+              <Name>(C) ALTERED ITEM PART NUMBER</Name>
+              <Font>
+                <FamilyName />
+                <Size>0</Size>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+              </Font>
+              <TextLocation>Left</TextLocation>
+              <ReadOnly>false</ReadOnly>
+              <AlwaysReadOnly>false</AlwaysReadOnly>
+              <PropertyName>ALTERED ITEM PART NUMBER</PropertyName>
+              <PropertySetName>Custom</PropertySetName>
+            </UiElementSpec>
+            <UiElementSpec xsi:type="TextPropertyControlSpec">
+              <Name>(C) ALTERED ITEM VENDOR</Name>
+              <Font>
+                <FamilyName />
+                <Size>0</Size>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+              </Font>
+              <TextLocation>Left</TextLocation>
+              <ReadOnly>false</ReadOnly>
+              <AlwaysReadOnly>false</AlwaysReadOnly>
+              <PropertyName>ALTERED ITEM VENDOR</PropertyName>
+              <PropertySetName>Custom</PropertySetName>
+            </UiElementSpec>
+            <UiElementSpec xsi:type="TextPropertyControlSpec">
+              <Name>(C) ALTERED ITEM DESCRIPTION</Name>
+              <Font>
+                <FamilyName />
+                <Size>0</Size>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+              </Font>
+              <TextLocation>Left</TextLocation>
+              <ReadOnly>false</ReadOnly>
+              <AlwaysReadOnly>false</AlwaysReadOnly>
+              <PropertyName>ALTERED ITEM DESCRIPTION</PropertyName>
+              <PropertySetName>Custom</PropertySetName>
+            </UiElementSpec>
+          </Items>
+          <CaptionImage>
+            <BitmapByteArray />
+          </CaptionImage>
+          <BordersVisible>true</BordersVisible>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="ControlGroupSpec">
+          <Name>Project</Name>
+          <Font>
+            <FamilyName />
+            <Size>0</Size>
+            <Bold>false</Bold>
+            <Italic>false</Italic>
+          </Font>
+          <ContentsFont>
+            <FamilyName />
+            <Size>0</Size>
+            <Bold>false</Bold>
+            <Italic>false</Italic>
+          </ContentsFont>
+          <ContentsTextLocation>Left</ContentsTextLocation>
+          <Items>
+            <UiElementSpec xsi:type="TextPropertyControlSpec">
+              <Name>(I) JOB ID</Name>
+              <Font>
+                <FamilyName />
+                <Size>0</Size>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+              </Font>
+              <TextLocation>Left</TextLocation>
+              <ReadOnly>false</ReadOnly>
+              <AlwaysReadOnly>false</AlwaysReadOnly>
+              <PropertyName>Project</PropertyName>
+              <PropertySetName>Project</PropertySetName>
+            </UiElementSpec>
+            <UiElementSpec xsi:type="TextPropertyControlSpec">
+              <Name>(C) DESIGN DEPARTMENT</Name>
+              <Font>
+                <FamilyName />
+                <Size>0</Size>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+              </Font>
+              <TextLocation>Left</TextLocation>
+              <ReadOnly>false</ReadOnly>
+              <AlwaysReadOnly>false</AlwaysReadOnly>
+              <PropertyName>DESIGN DEPARTMENT</PropertyName>
+              <PropertySetName>Custom</PropertySetName>
+            </UiElementSpec>
+            <UiElementSpec xsi:type="TextPropertyControlSpec">
+              <Name>(C) LAB/DEPT</Name>
+              <Font>
+                <FamilyName />
+                <Size>0</Size>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+              </Font>
+              <TextLocation>Left</TextLocation>
+              <ReadOnly>false</ReadOnly>
+              <AlwaysReadOnly>false</AlwaysReadOnly>
+              <PropertyName>LAB/DEPT</PropertyName>
+              <PropertySetName>Custom</PropertySetName>
+            </UiElementSpec>
+            <UiElementSpec xsi:type="TextPropertyControlSpec">
+              <Name>(C) REQUESTING SCIENTIST</Name>
+              <Font>
+                <FamilyName />
+                <Size>0</Size>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+              </Font>
+              <TextLocation>Left</TextLocation>
+              <ReadOnly>false</ReadOnly>
+              <AlwaysReadOnly>false</AlwaysReadOnly>
+              <PropertyName>REQUESTING SCIENTIST</PropertyName>
+              <PropertySetName>Custom</PropertySetName>
+            </UiElementSpec>
+          </Items>
+          <CaptionImage>
+            <BitmapByteArray />
+          </CaptionImage>
+          <BordersVisible>true</BordersVisible>
+        </UiElementSpec>
+      </Items>
+      <CaptionImage>
+        <BitmapByteArray />
+      </CaptionImage>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="ControlGroupSpec">
+      <Name>To Convert Files</Name>
+      <Font>
+        <FamilyName />
+        <Size>0</Size>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+      </Font>
+      <ContentsFont>
+        <FamilyName />
+        <Size>0</Size>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+      </ContentsFont>
+      <ContentsTextLocation>Left</ContentsTextLocation>
+      <Items>
+        <UiElementSpec xsi:type="ControlRowSpec">
+          <Name>Buttons</Name>
+          <Font>
+            <FamilyName />
+            <Size>0</Size>
+            <Bold>false</Bold>
+            <Italic>false</Italic>
+          </Font>
+          <ContentsFont>
+            <FamilyName />
+            <Size>0</Size>
+            <Bold>false</Bold>
+            <Italic>false</Italic>
+          </ContentsFont>
+          <ContentsTextLocation>Left</ContentsTextLocation>
+          <Items>
+            <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+              <Name>Convert Standard CC File to Custom CC File</Name>
+              <Font>
+                <FamilyName />
+                <Size>0</Size>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+              </Font>
+              <TextLocation>Left</TextLocation>
+              <Image>
+                <BitmapByteArray />
+              </Image>
+              <TextVisible>true</TextVisible>
+              <RuleName>Convert CC File</RuleName>
+              <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+              <Path>Convert CC File.iLogicVb</Path>
+            </UiElementSpec>
+            <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+              <Name>Convert Legacy Files to New JFRC Standard</Name>
+              <Font>
+                <FamilyName />
+                <Size>0</Size>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+              </Font>
+              <TextLocation>Left</TextLocation>
+              <Image>
+                <BitmapByteArray />
+              </Image>
+              <TextVisible>true</TextVisible>
+              <RuleName>Create Legacy Part Number</RuleName>
+              <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+              <Path>Create Legacy Part Number.iLogicVb</Path>
+            </UiElementSpec>
+          </Items>
+        </UiElementSpec>
+      </Items>
+      <CaptionImage>
+        <BitmapByteArray />
+      </CaptionImage>
+      <BordersVisible>true</BordersVisible>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="ControlGroupSpec">
+      <Name>iProperties Tools</Name>
+      <Font>
+        <FamilyName />
+        <Size>0</Size>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+      </Font>
+      <ContentsFont>
+        <FamilyName />
+        <Size>0</Size>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+      </ContentsFont>
+      <ContentsTextLocation>Left</ContentsTextLocation>
+      <Items>
+        <UiElementSpec xsi:type="ControlRowSpec">
+          <Name>Row 4</Name>
+          <Font>
+            <FamilyName />
+            <Size>0</Size>
+            <Bold>false</Bold>
+            <Italic>false</Italic>
+          </Font>
+          <ContentsFont>
+            <FamilyName />
+            <Size>0</Size>
+            <Bold>false</Bold>
+            <Italic>false</Italic>
+          </ContentsFont>
+          <ContentsTextLocation>Left</ContentsTextLocation>
+          <Items>
+            <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+              <Name>Add Missing Custom iProperties</Name>
+              <Font>
+                <FamilyName />
+                <Size>0</Size>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+              </Font>
+              <TextLocation>Left</TextLocation>
+              <Image>
+                <BitmapByteArray />
+              </Image>
+              <TextVisible>true</TextVisible>
+              <RuleName>Add Missing Custom iProperties</RuleName>
+              <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+              <Path>Add Missing Custom iProperties.iLogicVb</Path>
+            </UiElementSpec>
+            <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+              <Name>Restore iProperties to Default</Name>
+              <Font>
+                <FamilyName />
+                <Size>0</Size>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+              </Font>
+              <TextLocation>Left</TextLocation>
+              <Image>
+                <BitmapByteArray />
+              </Image>
+              <TextVisible>true</TextVisible>
+              <RuleName>Restore iProperties to Default</RuleName>
+              <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+              <Path>Restore iProperties to Default.iLogicVb</Path>
+            </UiElementSpec>
+            <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+              <Name>Convert iProperties to Uppercase</Name>
+              <Font>
+                <FamilyName />
+                <Size>0</Size>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+              </Font>
+              <TextLocation>Left</TextLocation>
+              <Image>
+                <BitmapByteArray />
+              </Image>
+              <TextVisible>true</TextVisible>
+              <RuleName>Convert iProperties to Uppercase</RuleName>
+              <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+              <Path>Convert iProperties to Uppercase.iLogicVb</Path>
+            </UiElementSpec>
+          </Items>
+        </UiElementSpec>
+      </Items>
+      <CaptionImage>
+        <BitmapByteArray />
+      </CaptionImage>
+      <BordersVisible>true</BordersVisible>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="ControlGroupSpec">
+      <Name>TIPS &amp; TRICKS:</Name>
+      <Font>
+        <FamilyName />
+        <Size>0</Size>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+      </Font>
+      <ContentsFont>
+        <FamilyName />
+        <Size>0</Size>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+      </ContentsFont>
+      <ContentsTextLocation>Left</ContentsTextLocation>
+      <Items>
+        <UiElementSpec xsi:type="LabelSpec">
+          <Name>- Use Vault to fill out the iProperties.  This will give you access to drop-down lists and help you with property compliance.</Name>
+          <Font>
+            <FamilyName />
+            <Size>0</Size>
+            <Bold>false</Bold>
+            <Italic>false</Italic>
+          </Font>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="LabelSpec">
+          <Name>- Generate a new part number before you fill out the rest of the form (see next tip).</Name>
+          <Font>
+            <FamilyName />
+            <Size>0</Size>
+            <Bold>false</Bold>
+            <Italic>false</Italic>
+          </Font>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="LabelSpec">
+          <Name>- Pressing any button on this form without hitting apply first will cause you to loose any unsaved changes.</Name>
+          <Font>
+            <FamilyName>Tahoma</FamilyName>
+            <Size>8.25</Size>
+            <Bold>false</Bold>
+            <Italic>false</Italic>
+          </Font>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="LabelSpec">
+          <Name>- Blank iProperties or non-capitalized entries (except the description) will prevent the file from being released.</Name>
+          <Font>
+            <FamilyName />
+            <Size>0</Size>
+            <Bold>false</Bold>
+            <Italic>false</Italic>
+          </Font>
+        </UiElementSpec>
+      </Items>
+      <CaptionImage>
+        <BitmapByteArray />
+      </CaptionImage>
+      <BordersVisible>true</BordersVisible>
+    </UiElementSpec>
+  </Items>
+  <StyleAndSkinName>
+    <StyleName>Default</StyleName>
+  </StyleAndSkinName>
+  <AllowCustomization>true</AllowCustomization>
+  <PredefinedButtons>OkCancelApply</PredefinedButtons>
+  <Modal>false</Modal>
+  <ItemBordersVisible>false</ItemBordersVisible>
+  <IsLauncherPage>false</IsLauncherPage>
+  <ShowOnPlaceComponent>false</ShowOnPlaceComponent>
+  <Guid>b1372bcc-bf5d-4812-80d7-11149665a2c3</Guid>
+</FormSpecification>
