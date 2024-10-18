@@ -13,7 +13,7 @@ The [3D designs](https://github.com/arobie/FlyDisco/tree/main/DesignFiles/Drawin
 
 The following are the essenital items that require custom fabriction:
 
-0. Fly Bubble vacuum mold (3D printed or milled) - design file
+0. Fly Bubble vacuum mold (3D printed or milled) - [design file](https://github.com/arobie/FlyDisco/blob/main/DesignFiles/InstructionsandDesignFiles4FlyBubbles/THERMOFORM%20BUCK%20-%20BUBBLE.pdf)
 1. Bubbles (vacuum forming) - instructions
 2. Fly Bubble cartridge (3D printed and milled) - design and instructions
 3. Mounting plate (milled) - design file
