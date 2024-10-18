@@ -7,7 +7,7 @@ The Fly Disco is a high throughput behavioral assay designed to quantify the eff
 
 We have included the complete specifications for our Fly Disco Hardware. Some parts are essential to replicate in order to reproduce videos that can be processed using our analysis pipeline and pretrained trackers such as the recording chamber. Other parts can be easily subsituted with little impact on video quality such as the rolling cart. We have color coded the [parts list](FlyDiscoPartsList.xlsx) with green for essential, yellow for suggested, and no color for non-essential parts, but for completeness provided all the information. 
 
-The [3D designs](DesignFiles/Drawings and CAD Fly Disco Hardware) for the hardware were created with AutoDesk Inventor. The [assembled 3D hardware](DesignFiles/BRANSON FLY DISCO TOP LEVEL ASSY.stp) can be viewed with the free software CAD Assisant 
+The [3D designs](https://github.com/arobie/FlyDisco/tree/main/DesignFiles/Drawings%20and%20CAD%20Fly%20Disco%20Hardware) for the hardware were created with AutoDesk Inventor. The [assembled 3D hardware](DesignFiles/BRANSON FLY DISCO TOP LEVEL ASSY.stp) can be viewed with the free software CAD Assisant 
 
    
 
