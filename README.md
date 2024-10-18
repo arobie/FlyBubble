@@ -37,5 +37,8 @@ Related repositories:
    <li> JAABA: Janelia Automatic Animal Behavior Annotator https://github.com/kristinbranson/JAABA</li>
   </ul>
 </li>
+</ul>
 
+Acknowledgements
+================
 Designed by Alice Robie in collaboration with the Janelia Engineering and Technology group. 
