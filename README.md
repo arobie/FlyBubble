@@ -1,21 +1,24 @@
 FlyDisco
 ================
 
-The Fly Disco is a high throughput behavioral assay designed to quantify the effects of optogentic manipulations on the behavior of groups of freely walking fruit flies including limb movements. Here, we provide the [parts list](FlyDiscoPartsList.xlsx), fabrication, and assembly instructions for the Fly Disco behavioral assay. 
+The Fly Disco is a high throughput behavioral assay designed to quantify the effects of optogentic manipulations on the behavior of groups of freely walking fruit flies including body and limb movements. Here, we provide the parts list, fabrication and assembly instructions for the Fly Disco behavioral assay. 
 
 ![image](photos/FlyDiscoRig_expansions.png)
 
-We have included the complete specifications for our Fly Disco Hardware. Some parts are essential to replicate in order to reproduce videos that can be processed using our analysis pipeline and pretrained trackers, such as the recording chamber. Other parts can be easily subsituted with little impact on video quality such as the rolling cart. We have color coded the parts list with green for essential, yellow for suggested, and no color for non-essential parts, but for completeness provided all the information. 
+We have included the complete specifications for our Fly Disco Hardware. Some parts are essential to replicate in order to reproduce videos that can be processed using our analysis pipeline and pretrained trackers such as the recording chamber. Other parts can be easily subsituted with little impact on video quality such as the rolling cart. We have color coded the [parts list](FlyDiscoPartsList.xlsx) with green for essential, yellow for suggested, and no color for non-essential parts, but for completeness provided all the information. 
 
+The 3D designs for the hardware were created with AutoDesk Inventor. They can be viewed with either:
+1. CAD Assisant (free): file
+2. Autodesk viewer (web): file
+   
 
-Custom fabriction items:
+The following are the essenital items that require custom fabriction:
 
 0. Fly Bubble vacuum mold (3D printed or milled) - design file
-1. Vacuum form bubbles - instructions
+1. Bubbles (vacuum forming) - instructions
 2. Fly Bubble cartridge (3D printed and milled) - design and instructions
 3. Mounting plate (milled) - design file
 4. LED backlight and LED indicator - https://github.com/janelia-experimental-technology/RGB-IR-LED-Boards > model
-5. Camera mount design file
 
 
 
