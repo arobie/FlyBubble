@@ -14,10 +14,10 @@ The [3D designs](https://github.com/arobie/FlyDisco/tree/main/DesignFiles/Drawin
 The following are the essenital items that require custom fabriction:
 
 0. Fly Bubble vacuum mold (3D printed or milled) - [design file](https://github.com/arobie/FlyDisco/blob/main/DesignFiles/InstructionsandDesignFiles4FlyBubbles/THERMOFORM%20BUCK%20-%20BUBBLE.pdf)
-1. Bubbles (vacuum forming) - instructions
-2. Fly Bubble cartridge (3D printed and milled) - design and instructions
-3. Mounting plate (milled) - design file
-4. LED backlight and LED indicator - https://github.com/janelia-experimental-technology/RGB-IR-LED-Boards > model
+1. Bubbles (vacuum forming) - [instructions](https://github.com/arobie/FlyDisco/edit/main/README.md#:~:text=Fly%20Bubble-,Instructions,-.pdf)
+2. Fly Bubble cartridge (3D printed and milled) - [design and instructions](https://github.com/arobie/FlyDisco/edit/main/README.md#:~:text=Item_Cart-,InstructionsandDeisgnFiles4FlyBubbleCartridge,-Document%20Images)
+3. Mounting plate (milled) - [design file](https://github.com/arobie/FlyDisco/edit/main/README.md#:~:text=BLACKOUT%20PANEL.ipt-,BASE,-PLATE.ipt)
+4. LED backlight and LED indicator - https://github.com/janelia-experimental-technology/RGB-IR-LED-Boards > RGB_IR Backlight 5x5
 
 
 
